@@ -1,0 +1,23 @@
+{
+  "name": "gitlabwebinterface",
+  "version": "1.0.0",
+  "description": "A gitlab web interface",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezwan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "minimist": "^1.2.5",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
